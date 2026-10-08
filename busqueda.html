@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda 🔍 - PequeMundo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>PequeMundo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="Quiénes somos.html">Quiénes somos</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="busqueda.html">Búsqueda 🔍</a></li>
+                <li><a href="carrito.html">Carrito 🛒 <span id="cart-counter">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Buscar Productos</h2>
+        <section class="search-section">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Buscar por nombre de producto...">
+                <button id="search-btn">Buscar</button>
+            </div>
+            <div class="search-results">
+                <h3 id="search-title">Resultados de búsqueda:</h3>
+                <ul id="results-list">
+                    <!-- Resultados se mostrarán aquí -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 PequeMundo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

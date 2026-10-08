@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - PequeMundo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>PequeMundo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="Quiénes somos.html">Quiénes somos</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="busqueda.html">Búsqueda 🔍</a></li>
+                <li><a href="carrito.html">Carrito 🛒 <span id="cart-counter">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Tu Carrito de Compra</h2>
+        <section class="cart-section">
+            <ul id="cart-items">
+                <!-- Los elementos del carrito se renderizarán aquí -->
+            </ul>
+            <div class="cart-summary">
+                <h3>Total: $<span id="cart-total">0.00</span></h3>
+                <button id="checkout-btn" disabled>Proceder al pago</button>
+                <button id="clear-cart-btn">Vaciar carrito</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 PequeMundo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
